@@ -1,18 +1,18 @@
 # ✨ Lumen Plugins
 
-**Community-built plugins for [Lumen AI](#).**
+**Community-built plugins for [Lumen AI](https://lumen.baby).**
 
-Lumen Plugins is an open-source collection of plugins that extend **Lumen AI** with reusable code, design systems, components, patterns, and other resources that Lumen can reference when building websites and applications.
+Lumen Plugins is an open-source collection of code, components, design systems, patterns, and other resources designed to help **Lumen AI** build better websites and applications.
 
-Instead of starting from scratch every time, Lumen can use these plugins as a source of **high-quality code and design knowledge** to help create better-looking, more consistent, and more capable projects.
+Lumen lets you add your own code through the **Plugins** section in Settings. These plugins give Lumen more resources to reference when creating, designing, or improving your projects.
 
 ---
 
 ## 🚀 What Are Lumen Plugins?
 
-Lumen AI lets you provide it with your own code and resources so it can reference them while generating or improving websites and applications.
+Lumen Plugins are collections of useful code and resources that you can give to Lumen AI.
 
-**Lumen Plugins takes that idea further.**
+Instead of asking Lumen to create everything from scratch, you can provide it with high-quality examples, components, styles, and patterns that it can reference when working on your project.
 
 Plugins can contain things like:
 
@@ -28,150 +28,67 @@ Plugins can contain things like:
 * 🎯 Design guidelines
 * 🔧 Development tools
 
-A plugin essentially gives Lumen **another set of building blocks and knowledge to work with**.
+> **Give Lumen better building blocks → get better results.**
 
 ---
 
-## 💡 Why Lumen Plugins?
+## 💡 Why Use Plugins?
 
-AI-generated websites can sometimes feel repetitive.
+AI-generated websites can sometimes start to feel repetitive.
 
 The same layouts.
 The same components.
 The same generic designs.
 
-Lumen Plugins is built to change that.
+Plugins help change that.
 
-By giving Lumen access to specialized, reusable resources, you can create plugins that help it produce websites and applications with a much stronger visual identity and better code.
+By giving Lumen access to specialized code and design resources, you can help it create websites that are more unique, polished, and consistent.
 
-> **Give Lumen better building blocks → get better results.**
+A good plugin can give Lumen:
 
----
-
-## 📦 Plugin Structure
-
-A plugin can be as simple or as advanced as you want.
-
-A typical plugin might look like this:
-
-```text
-my-plugin/
-├── README.md
-├── plugin.json
-├── components/
-│   ├── Button.jsx
-│   ├── Card.jsx
-│   └── Navbar.jsx
-├── styles/
-│   └── theme.css
-├── examples/
-│   └── example.jsx
-└── docs/
-    └── usage.md
-```
-
-You can organize your plugin however makes the most sense for the resources you're providing.
+**Better code. → Better design. → Better websites.**
 
 ---
 
-## 🧩 Example Plugin
+## 🌐 Using Lumen Plugins
 
-For example, you could create a plugin containing a collection of modern website components:
+Using a plugin is simple.
 
-```text
-modern-ui/
-├── plugin.json
-├── components/
-│   ├── Hero.jsx
-│   ├── Pricing.jsx
-│   ├── Features.jsx
-│   └── Footer.jsx
-├── styles/
-│   └── modern.css
-└── README.md
-```
+### 1. Visit Lumen
 
-Lumen could then reference those components and patterns when generating a website.
+Go to **[Lumen.baby](https://lumen.baby)** and open Lumen AI.
 
----
+### 2. Open Settings
 
-## 🛠️ Creating a Plugin
+Find the **Plugins** section in Settings.
 
-### 1. Fork the repository
+### 3. Add your plugin code
 
-Create your own fork of this repository on GitHub.
+Paste the code or resources from the plugin you want to use.
 
-### 2. Create your plugin
+### 4. Start building
 
-Add your plugin inside the appropriate directory:
+Lumen can now reference the plugin when working on your website or application.
 
-```text
-plugins/
-└── my-plugin/
-```
-
-### 3. Add your resources
-
-Add whatever Lumen should be able to reference:
-
-```text
-plugins/
-└── my-plugin/
-    ├── plugin.json
-    ├── README.md
-    ├── components/
-    ├── styles/
-    └── examples/
-```
-
-### 4. Document your plugin
-
-Your plugin should explain:
-
-* What it does
-* What it contains
-* How Lumen should use it
-* What technologies it uses
-* Examples of the resources it provides
-* Any limitations or requirements
-
-### 5. Submit a pull request
-
-Once your plugin is ready, open a pull request.
-
-After review, it can become part of the Lumen Plugins ecosystem.
+That's it.
 
 ---
 
-## 📋 Recommended `plugin.json`
+## 👀 Plugin Examples
 
-Plugins should include metadata describing what they provide.
+Want to see what a plugin can actually look like?
 
-Example:
+**Click the website posted here to see examples:**
 
-```json
-{
-  "name": "modern-ui",
-  "version": "1.0.0",
-  "description": "A collection of modern, responsive UI components for Lumen AI.",
-  "author": "Your Name",
-  "license": "MIT",
-  "tags": [
-    "ui",
-    "components",
-    "responsive",
-    "modern"
-  ]
-}
-```
+### 🌐 [Lumen.baby](https://lumen.baby)
 
-The exact plugin format may evolve as the Lumen Plugins ecosystem grows.
+You'll find examples and resources that demonstrate how plugins can be used with Lumen.
 
 ---
 
 ## 🎨 What Can You Build?
 
-Pretty much anything that can make Lumen better at building software.
+There are basically no limits to what a useful plugin can provide.
 
 ### UI Libraries
 
@@ -190,12 +107,12 @@ Create plugins containing:
 
 ### Design Systems
 
-Provide Lumen with:
+Give Lumen reusable:
 
 * Typography
-* Spacing systems
-* Color tokens
-* Component rules
+* Spacing
+* Color systems
+* Component styles
 * Layout patterns
 * Accessibility guidelines
 
@@ -204,15 +121,15 @@ Provide Lumen with:
 Create collections of:
 
 * CSS animations
-* Page transitions
 * Hover effects
+* Page transitions
 * Micro-interactions
 * Loading states
 * Scroll animations
 
-### Framework Plugins
+### Framework Resources
 
-Build resources specifically for:
+Plugins can also focus on technologies such as:
 
 * React
 * Next.js
@@ -225,131 +142,87 @@ Build resources specifically for:
 
 ---
 
-## 🧠 Plugins Should Teach, Not Just Store Code
+## 🧠 Make Your Plugins Useful
 
-A good Lumen plugin isn't simply a folder full of random files.
+A great plugin isn't just a bunch of random code.
 
-The best plugins give Lumen **context**.
+The best plugins give Lumen **useful examples and context**.
 
-For example, instead of only providing:
+For example, a plugin could provide a component along with information about how it should be used, what its different variations are, and what design principles it follows.
 
-```jsx
-<Button />
-```
+This gives Lumen both:
 
-your plugin could also explain:
+**Implementation + Design Intent**
 
-```text
-Use the Button component for primary actions.
-
-Primary buttons should be used for the most important action
-on a page. Avoid placing multiple primary buttons next to each
-other.
-
-Use the secondary variant for less important actions.
-```
-
-This allows the plugin to provide both **implementation** and **design intent**.
+The more useful context your plugin provides, the more useful it can be when Lumen is building something.
 
 ---
 
-## 🌟 Plugin Quality Guidelines
+## 🌟 Plugin Guidelines
 
-To keep the ecosystem useful, plugins should ideally be:
+When creating a plugin, try to make it:
 
 ### ✅ Reusable
 
-Resources should work across multiple projects whenever possible.
+Create resources that can work across multiple projects.
 
 ### ✅ Well documented
 
-Explain what each component or resource does.
+Explain what your code does and how it should be used.
 
 ### ✅ Consistent
 
-Follow a consistent coding and design style within the plugin.
+Keep your code and design style consistent throughout the plugin.
 
 ### ✅ Accessible
 
-Consider keyboard navigation, semantic HTML, contrast, and other accessibility concerns.
+Consider semantic HTML, keyboard navigation, contrast, and accessibility.
 
 ### ✅ Responsive
 
-Web components should work well across different screen sizes.
+Make sure website components work across different screen sizes.
 
-### ✅ Maintainable
+### ✅ High quality
 
-Avoid unnecessary complexity and duplicated code.
+Don't just add code for the sake of adding code. Make something that actually improves what Lumen can build.
 
 ### ✅ Original
 
-Only submit code and assets that you have the right to distribute.
-
----
-
-## 📁 Repository Structure
-
-The repository is organized around individual plugins:
-
-```text
-.
-├── plugins/
-│   ├── modern-ui/
-│   ├── animations/
-│   ├── dashboard-kit/
-│   └── ...
-├── CONTRIBUTING.md
-├── LICENSE
-└── README.md
-```
-
-Each plugin should be self-contained and documented.
+Only submit code and assets that you have permission to share.
 
 ---
 
 ## 🤝 Contributing
 
-Lumen Plugins is designed to be community-driven.
+Lumen Plugins is built for the community.
 
-Have a cool component library?
+Have a cool component?
 
-Built a useful animation system?
+Built an awesome animation system?
 
 Created a unique design system?
 
-Made something that could help Lumen generate better websites?
+Made something that could help Lumen create better websites?
 
-**Contribute it.**
+**Share it.**
 
-### Contribution process
+You can contribute your plugin to this repository so other Lumen users can discover and use it.
+
+### Contribution flow
 
 ```text
-Idea
-  ↓
-Build Plugin
-  ↓
-Document Plugin
-  ↓
-Test Plugin
-  ↓
-Open Pull Request
-  ↓
-Review
-  ↓
-🚀 Added to Lumen Plugins
+💡 Create something
+       ↓
+🧪 Test it with Lumen
+       ↓
+📝 Document it
+       ↓
+📤 Submit it to GitHub
+       ↓
+👀 Review
+       ↓
+🚀 Add it to Lumen Plugins
 ```
-
-Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) before submitting a plugin.
-
----
-
-## 🔐 Licensing
-
-Every plugin should clearly specify its license.
-
-Do not submit proprietary code, copied code, or assets that you do not have permission to redistribute.
-
-Unless otherwise specified, this repository uses the license included in [`LICENSE`](LICENSE).
 
 ---
 
@@ -357,37 +230,36 @@ Unless otherwise specified, this repository uses the license included in [`LICEN
 
 Lumen Plugins is just getting started.
 
-Potential future improvements include:
+Some things we may add over time:
 
-* [ ] Plugin discovery
+* [ ] More community plugins
 * [ ] Plugin categories
-* [ ] Plugin versioning
-* [ ] Plugin validation
-* [ ] Automated plugin testing
-* [ ] Plugin documentation site
-* [ ] Lumen-compatible plugin metadata
-* [ ] Community plugin registry
 * [ ] Featured plugins
-* [ ] Plugin search
-* [ ] Automatic updates
+* [ ] Better plugin discovery
+* [ ] Plugin documentation
+* [ ] Community examples
+* [ ] Plugin recommendations
+* [ ] More Lumen-specific resources
 
 ---
 
 ## ⭐ Build Better With Lumen
 
-Lumen is already capable of generating websites and applications.
+Lumen can already create websites and applications.
 
-**Plugins give it more to work with.**
+**Plugins give it more knowledge and better building blocks to work with.**
 
-The goal of this project is simple:
+The goal of Lumen Plugins is simple:
 
-> **Build a community library of high-quality resources that helps Lumen create better software.**
+> **Create a community library of high-quality code and resources that helps Lumen build better software.**
 
 Build something useful.
 
 Share it.
 
-Let Lumen use it.
+Give Lumen more to work with.
+
+### 🚀 Start creating with [Lumen.baby](https://lumen.baby)
 
 ---
 
