@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050507">
+  <title>Lumen Plugins — Build better with Lumen</title>
+  <meta name="description" content="A living showcase of code, animations, effects, and design ideas for Lumen AI plugins.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="progress"></div>
+
+  <nav class="nav">
+    <a class="brand" href="#">
+      <span class="brand-mark">✦</span>
+      <span>Lumen Plugins</span>
+    </a>
+    <div class="nav-links">
+      <a href="#examples">Examples</a>
+      <a href="https://lumen.baby" target="_blank" rel="noreferrer">Lumen ↗</a>
+      <a class="nav-github" href="https://github.com/Jake1427/lumen-plugins" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-orb orb-a"></div>
+      <div class="hero-orb orb-b"></div>
+      <p class="eyebrow reveal">OPEN SOURCE • BUILT FOR LUMEN</p>
+      <h1 class="hero-title reveal">
+        Give your AI<br>
+        <span class="gradient-text">better building blocks.</span>
+      </h1>
+      <p class="hero-copy reveal">
+  A collection of code, effects, components, and design ideas that Lumen can
+  reference to make websites feel less generic and a lot more <em>alive.</em>
+</p>
+
+<p class="made-by reveal">This project was made by Jake.</p>
+      <div class="hero-actions reveal">
+        <a class="button primary" href="#examples">Explore examples <span>↓</span></a>
+        <a class="button ghost" href="https://lumen.baby" target="_blank" rel="noreferrer">Open Lumen ↗</a>
+      </div>
+      <div class="scroll-hint reveal"><span></span> Scroll to explore</div>
+    </section>
+
+    <section class="statement section">
+      <p class="section-kicker reveal">THE IDEA</p>
+      <h2 class="statement-title reveal">
+        Don't just tell Lumen <span>what</span> to build.<br>
+        Show it <span>how good</span> can look.
+      </h2>
+    </section>
+
+    <section id="examples" class="examples section">
+      <div class="section-head reveal">
+        <div>
+          <p class="section-kicker">PLUGIN EXAMPLES</p>
+          <h2>Little pieces.<br><span>Big difference.</span></h2>
+        </div>
+        <p class="section-note">Copy an effect. Drop it into a plugin. Let Lumen reference it.</p>
+      </div>
+
+      <article class="demo-card glow-demo reveal">
+        <div class="demo-content">
+          <div class="demo-label">01 / TEXT GLOW</div>
+          <h3 class="glow-text">Make the type glow.</h3>
+          <p>Subtle light can make a headline feel dramatically more premium without adding visual clutter.</p>
+        </div>
+        <div class="code-panel">
+          <div class="code-top"><span>HTML + CSS</span><button class="copy-btn" data-copy="glow">Copy Me</button></div>
+          <pre><code>&lt;h1 class="glow"&gt;Lumen&lt;/h1&gt;
+
+&lt;style&gt;
+.glow {
+  color: white;
+  text-shadow:
+    0 0 18px rgba(255,255,255,.28),
+    0 0 55px rgba(150,120,255,.35);
+}
+&lt;/style&gt;</code></pre>
+        </div>
+      </article>
+
+      <div class="side-scroll-wrap">
+        <div class="side-scroll">
+          <article class="mini-demo reveal">
+            <div class="demo-label">02 / APPLE REVEAL</div>
+            <div class="apple-stage">
+              <div class="apple-word">Hello.</div>
+              <span>Scroll-triggered reveal</span>
+            </div>
+            <button class="copy-btn" data-copy="reveal">Copy Me</button>
+          </article>
+
+          <article class="mini-demo reveal">
+            <div class="demo-label">03 / MAGNETIC BUTTON</div>
+            <div class="magnetic-stage">
+              <button class="magnetic">Move your cursor <span>→</span></button>
+            </div>
+            <button class="copy-btn" data-copy="magnetic">Copy Me</button>
+          </article>
+
+          <article class="mini-demo reveal">
+            <div class="demo-label">04 / GLASS CARD</div>
+            <div class="glass-stage">
+              <div class="glass-card">
+                <span>✦</span>
+                <strong>Designed to float.</strong>
+                <small>Blur • depth • light</small>
+              </div>
+            </div>
+            <button class="copy-btn" data-copy="glass">Copy Me</button>
+          </article>
+
+          <article class="mini-demo reveal">
+            <div class="demo-label">05 / GRADIENT SHIFT</div>
+            <div class="gradient-stage"><span>Fluid gradients.</span></div>
+            <button class="copy-btn" data-copy="gradient">Copy Me</button>
+          </article>
+        </div>
+      </div>
+
+      <article class="demo-card spotlight-demo reveal">
+        <div class="spotlight">
+          <div class="spotlight-content">
+            <div class="demo-label">06 / MOUSE SPOTLIGHT</div>
+            <h3>Move around.</h3>
+            <p>The light follows your cursor.</p>
+          </div>
+        </div>
+        <div class="code-panel">
+          <div class="code-top"><span>JAVASCRIPT</span><button class="copy-btn" data-copy="spotlight">Copy Me</button></div>
+          <pre><code>const card = document.querySelector(".card");
+
+card.addEventListener("pointermove", (e) =&gt; {
+  const r = card.getBoundingClientRect();
+  card.style.setProperty("--x", `${e.clientX - r.left}px`);
+  card.style.setProperty("--y", `${e.clientY - r.top}px`);
+});</code></pre>
+        </div>
+      </article>
+
+      <article class="demo-card stagger-demo reveal">
+        <div class="stagger-copy">
+          <div class="demo-label">07 / STAGGERED ENTRANCE</div>
+          <h3>One thing<br><span>after another.</span></h3>
+          <p>Perfect for feature lists, navigation, cards, and full landing pages.</p>
+        </div>
+        <div class="stagger-stage">
+          <div class="stagger-item">01 <b>Design</b><i>↗</i></div>
+          <div class="stagger-item">02 <b>Build</b><i>↗</i></div>
+          <div class="stagger-item">03 <b>Animate</b><i>↗</i></div>
+          <div class="stagger-item">04 <b>Ship</b><i>↗</i></div>
+        </div>
+      </article>
+
+      <article class="demo-card marquee-demo reveal">
+        <div class="marquee">
+          <span>MAKE IT FEEL GOOD</span><span>MAKE IT FEEL GOOD</span>
+          <span>MAKE IT FEEL GOOD</span><span>MAKE IT FEEL GOOD</span>
+        </div>
+        <div class="marquee-bottom">
+          <div>
+            <div class="demo-label">08 / INFINITE MARQUEE</div>
+            <h3>Motion that<br><span>keeps moving.</span></h3>
+          </div>
+          <button class="copy-btn" data-copy="marquee">Copy Me</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="section final">
+      <p class="section-kicker reveal">YOUR TURN</p>
+      <h2 class="final-title reveal">Build something<br><span>worth copying.</span></h2>
+      <p class="final-copy reveal">Create a plugin. Add your best code. Give Lumen something new to learn from.</p>
+      <div class="hero-actions reveal">
+        <a class="button primary" href="https://lumen.baby" target="_blank" rel="noreferrer">Open Lumen <span>↗</span></a>
+        <a class="button ghost" href="#examples">See examples <span>↑</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>✦ Lumen Plugins</span>
+    <span>Open source • Built for the Lumen community</span>
+  </footer>
+
+  <div class="toast" id="toast">Copied to clipboard ✓</div>
+  <script src="script.js"></script>
+</body>
+</html>
